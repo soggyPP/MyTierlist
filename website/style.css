@@ -1,0 +1,26 @@
+    .h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(255,255,255),rgb(255,0,255),rgb(20,200,200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .topnav {
+     background-color: black;
+     overflow: hidden;
+     height: 45px;
+    }
+    .topnav a {
+     text-align: center;
+     color:aliceblue;
+     float:left;
+     font-size: medium;
+     text-align: center;
+     padding: 10px;
+    }
+    .topnav a:hover {
+    color: rgba(177, 204, 227, 0.977);
+    font-size: larger;
+    background-color: black;
+    -webkit-animation: normal;
+    -webkit-animation-duration: 1s;
+    }
